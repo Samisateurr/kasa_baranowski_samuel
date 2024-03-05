@@ -1,0 +1,18 @@
+.nav-bar {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    margin:0px 0px 0px 0px;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Ajustez le padding selon vos préférences */
+}
+
+.header-logo {
+    width: 100px; /* Ajustez la taille du logo selon vos préférences */
+    height: auto;
+}

@@ -1,0 +1,24 @@
+.banner {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    margin: 40px;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 15px;
+    min-height: 100px;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+.banner h1 {
+    color: white;
+    margin-left: 1rem;
+    position: absolute;
+}
