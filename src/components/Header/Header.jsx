@@ -7,8 +7,8 @@ const Header = () => {
         <div className="header-container">
             <img src={logo} alt="Logo" className="header-logo" />
             <nav className='nav-bar'>
-                <div>Accueil</div>
-                <div>A propos</div>
+                <ul>Accueil</ul>
+                <ul>A propos</ul>
             </nav>
         </div>
     );

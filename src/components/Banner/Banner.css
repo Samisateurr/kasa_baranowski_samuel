@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     min-height: 100px;
-    margin-top: 50px;
+    height: 250px;
+    margin: 50px 95px 0px 95px;
 }
 
 .banner img {
@@ -17,8 +18,8 @@
     filter: brightness(0.4);
 }
 
-.banner h1 {
+.banner h2 {
     color: white;
-    margin-left: 1rem;
     position: absolute;
+    font-size: 3rem;
 }

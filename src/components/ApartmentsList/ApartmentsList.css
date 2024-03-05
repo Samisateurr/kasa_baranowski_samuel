@@ -6,13 +6,13 @@
     justify-content: center;
     border-radius: 15px;
     background-color: #f7f7f7;
-    margin-top: 30px;
+    margin: 30px 95px 0px 95px;
     padding: 30px 50px 30px 50px;
   }
   
   .apartment-card {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     border-radius: 15px;
     background-color: #ff6060;
     position: relative;

@@ -1,18 +1,32 @@
 .nav-bar {
-    display: flex;
-    gap: 3em;
-    align-items: center;
-    margin:0px 0px 0px 0px;
-  }
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  margin: 0px 95px 0px 0px;
+}
 
-  .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px; /* Ajustez le padding selon vos préférences */
+.nav-bar ul {
+  font-size: x-large;
+  font-weight: 500;
+  color: black;
+}
+
+.nav-bar ul:hover {
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  margin-top: 30px;
 }
 
 .header-logo {
-    width: 100px; /* Ajustez la taille du logo selon vos préférences */
-    height: auto;
+  width: 250px;
+  height: auto;
+  margin-left: 80px;
 }
