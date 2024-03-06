@@ -1,17 +1,25 @@
 .nav-bar {
-  display: flex;
-  gap: 2em;
   align-items: center;
   margin: 0px 95px 0px 0px;
 }
 
 .nav-bar ul {
+  list-style: none;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-bar a {
   font-size: x-large;
   font-weight: 500;
   color: black;
+  text-decoration: none;
 }
 
-.nav-bar ul:hover {
+.nav-bar a:hover {
   cursor: pointer;
   font-weight: 600;
   text-decoration: underline;

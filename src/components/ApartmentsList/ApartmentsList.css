@@ -18,11 +18,13 @@
     position: relative;
     cursor: pointer;
     transition: transform 0.3s ease;
+    box-shadow: 0 3px 4px rgba(0.5, 0.5, 0.5, 0.5);
   }
 
   .apartment-card:hover {
     transform: translateY(-10px);
     filter: brightness(1.1);
+    box-shadow: 0 3px 4px rgba(0.5, 0.5, 0.5, 0.7);
   }
   
   .apartment-card img {
