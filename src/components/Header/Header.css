@@ -22,7 +22,6 @@
 .nav-bar a:hover {
   cursor: pointer;
   font-weight: 600;
-  text-decoration: underline;
 }
 
 .header-container {
@@ -37,4 +36,12 @@
   width: 250px;
   height: auto;
   margin-left: 80px;
+}
+
+.nav-bar ul li a.active {
+  font-weight: bold;
+  background-color: #f7f7f7;
+  border: solid #ff6060;
+  padding: 7px;
+  border-radius: 15px;
 }
