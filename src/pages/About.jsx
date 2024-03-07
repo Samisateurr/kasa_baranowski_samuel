@@ -1,12 +1,12 @@
 import Header from '../components/Header/Header.jsx';
-import Banner from '../components/Banner/Banner.jsx';
+import BannerAbout from '../components/BannerAbout/BannerAbout.jsx';
 import Footer from '../components/Footer/Footer.jsx';
 
 const About = () => {
     return (
         <div className="about">
             <Header />
-            <Banner />
+            <BannerAbout />
             
             <Footer />
         </div>
