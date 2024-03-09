@@ -1,0 +1,29 @@
+.apartment-infos {
+    margin-left: 90px;
+}
+
+.apartment-infos h2 {
+    color: #ff6060;
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.apartment-infos p {
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.apartment-tag {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.apartment-tag p {
+    margin-right: 10px;
+    padding: 10px 40px;
+    color: white;
+    background-color: #ff6060;
+    border-radius: 15px;
+}

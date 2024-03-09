@@ -1,9 +1,12 @@
 .carousel {
     position: relative;
     height: 600px;
-    width: 100%;
-    margin: 50px 0px 50px 0px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px; 
+    margin-bottom: 50px;
     border-radius: 15px;
+    box-shadow: 1px 3px 4px rgba(0.4, 0.4, 0.4, 0.4);
 }
 
 .carousel img {
@@ -53,3 +56,6 @@
     padding: 8px 15px;
     border-radius: 20px;
 }
+
+
+  

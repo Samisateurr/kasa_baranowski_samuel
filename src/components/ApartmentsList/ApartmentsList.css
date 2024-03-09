@@ -8,6 +8,7 @@
     background-color: #f7f7f7;
     margin: 30px 95px 0px 95px;
     padding: 30px 50px 30px 50px;
+    box-shadow: 0 3px 4px rgba(0.1, 0.1, 0.1, 0.1);
   }
   
   .apartment-card {

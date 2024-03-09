@@ -15,6 +15,7 @@
     padding: 0px 20px;
     color: white;
     z-index: 1;
+    box-shadow: 0 3px 4px rgba(0.4, 0.4, 0.4, 0.4);
 }
 
 .collapsibles_container p {
@@ -51,6 +52,8 @@
     animation-duration: 1s;
     width: 100%;
     z-index: 2;
+    margin-top: 2px;
+    box-shadow: 0 3px 4px rgba(0.1, 0.1, 0.1, 0.1);
 }
 
 @keyframes slide-down {
