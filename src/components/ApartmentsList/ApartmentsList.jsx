@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import ApartmentsData from '../../data/ApartmentsData';
 import '../../components/ApartmentsList/ApartmentsList.css';
 
@@ -18,12 +19,12 @@ class ApartmentsList extends React.Component {
         return (
             <div className="apartments-container">
                 {this.state.appartements.map(apartment => (
-                    <div className="apartment-card" key={apartment.id}>
+                    <NavLink to={`/apartments/${apartment.id}`} key={apartment.id} className="apartment-card">
                         <img src={apartment.cover} alt={apartment.title} />
                         <div className="apartment-info">
                             <h3>{apartment.title}</h3>
                         </div>
-                    </div>
+                    </NavLink>
                 ))}
             </div>
         );
