@@ -9,19 +9,24 @@ import ApartmentInfo from '../components/ApartmentInfo/ApartmentInfo';
 function ApartmentPage() {
     const { id } = useParams();
     const apartment = ApartmentsData.find(apartment => apartment.id === id);
-  
+
     if (!apartment) {
-      return <div>Appartement non trouvé</div>;
+        return <div>Appartement non trouvé</div>;
     }
-  
+
     return (
-      <div>
-        <Header />
-        <Carousel pictures={apartment.pictures} /> {/* Passer les images en tant que props ici */}
-        <ApartmentInfo title={apartment.title} location={apartment.location} tags={apartment.tags} />
-        <Footer />
-      </div>
+        <div>
+            <Header />
+            <Carousel pictures={apartment.pictures} /> {/* Passer les images en tant que props ici */}
+            <ApartmentInfo 
+            title={apartment.title} 
+            location={apartment.location} 
+            tags={apartment.tags} 
+            name={apartment.host.name} 
+            picture={apartment.host.picture} />
+            <Footer />
+        </div>
     );
-  }
-  
-  export default ApartmentPage;
+}
+
+export default ApartmentPage;
