@@ -18,12 +18,16 @@ function ApartmentPage() {
         <div>
             <Header />
             <Carousel pictures={apartment.pictures} /> {/* Passer les images en tant que props ici */}
-            <ApartmentInfo 
-            title={apartment.title} 
-            location={apartment.location} 
-            tags={apartment.tags} 
-            name={apartment.host.name} 
-            picture={apartment.host.picture} />
+            <ApartmentInfo
+                title={apartment.title}
+                location={apartment.location}
+                tags={apartment.tags}
+                name={apartment.host.name}
+                picture={apartment.host.picture}
+                rating={apartment.rating}
+                equipments={apartment.equipments}
+                description={apartment.description}
+            />
             <Footer />
         </div>
     );

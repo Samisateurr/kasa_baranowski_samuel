@@ -15,8 +15,8 @@ const Collapse = (props) => {
         ></button>
       </div>
       {open && (
-        <div className="collapsibles_content show" key={props.description}>
-          {props.description}
+        <div className="collapsibles_content show" key={props.title}>
+          {props.content || props.description}
         </div>
       )}
     </div>

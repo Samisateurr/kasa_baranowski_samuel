@@ -11,6 +11,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/apartments/:id" element={<ApartmentPage />} /> {/* Route pour les pages d'appartement */}
+        <Route path="*" element={<About />} />
       </Routes>
     </Router>
   );
