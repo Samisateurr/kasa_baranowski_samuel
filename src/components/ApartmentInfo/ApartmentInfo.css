@@ -36,6 +36,7 @@
     background-color: #ff6060;
     border-radius: 15px;
     margin-top: 5px;
+    box-shadow: 0 3px 4px rgba(0.4, 0.4, 0.4, 0.4);
 }
 
 .apartment-owner {

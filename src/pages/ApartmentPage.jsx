@@ -1,5 +1,5 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { useNavigate, useParams } from "react-router-dom";
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import ApartmentsData from '../data/ApartmentsData';
@@ -7,11 +7,18 @@ import Carousel from '../components/Carousel/Carousel';
 import ApartmentInfo from '../components/ApartmentInfo/ApartmentInfo';
 
 function ApartmentPage() {
+    const navigate = useNavigate();
     const { id } = useParams();
     const apartment = ApartmentsData.find(apartment => apartment.id === id);
 
+    useEffect(() => {
+        if (!apartment) {
+            navigate("/not-found");
+        }
+    }, [apartment, navigate]);
+
     if (!apartment) {
-        return <div>Appartement non trouvé</div>;
+        return null; 
     }
 
     return (
