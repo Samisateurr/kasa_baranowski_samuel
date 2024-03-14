@@ -85,6 +85,12 @@
     margin-left: -10px;
 }
 
+.apartment-collapse-container ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
 .apartment-collapse-container p {
     color: white;
 }

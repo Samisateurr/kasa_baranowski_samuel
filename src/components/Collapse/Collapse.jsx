@@ -16,8 +16,8 @@ const Collapse = (props) => {
       </div>
       {open && (
         <div className="collapsibles_content show" key={props.title}>
-          {props.content || props.description}
-        </div>
+        {props.content ? props.content : props.children}
+      </div>
       )}
     </div>
   );

@@ -33,11 +33,9 @@ const ContentAbout = () => {
   return (
     <div className="about-contents">
       {contentAbout.map((content) => (
-        <Collapse
-          key={content.id}
-          title={content.title}
-          description={content.description}
-        />
+        <Collapse key={content.id} title={content.title}>
+          {content.description}
+        </Collapse>
       ))}
     </div>
   );

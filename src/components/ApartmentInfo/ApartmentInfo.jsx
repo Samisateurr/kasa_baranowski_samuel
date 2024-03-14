@@ -43,8 +43,18 @@ function ApartmentInfo({ title, location, tags, name, picture, rating, equipment
             </div>
 
             <div className="apartment-collapse-container">
-                <div className="apartment-collapse"> <Collapse title="Description" content={description} /></div>
-                <div className="apartment-collapse"> <Collapse title="Équipements" content={equipments} /></div>
+                <div className="apartment-collapse">
+                    <Collapse title="Description" content={description} />
+                </div>
+                <div className="apartment-collapse">
+                    <Collapse title="Équipements">
+                        <ul>
+                            {equipments.map((equipment, index) => (
+                                <li key={index}>{equipment}</li>
+                            ))}
+                        </ul>
+                    </Collapse>
+                </div>
             </div>
         </div>
     );
