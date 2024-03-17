@@ -1,12 +1,12 @@
 import React from 'react';
-import '../../components/Banner/Banner.css';
-import banner from '../../assets/images/picture_banner.png';
+import '../Banner/Banner.css'; // CSS générique pour les styles communs
+import '../Banner/BannerHome.css'; // CSS spécifique à la page Home
+import '../Banner/BannerAbout.css'; // CSS spécifique à la page About
 
-const Banner = () => {
+const Banner = ({ backgroundImage, title, isHome, isAbout }) => {
     return (
-        <div className="banner">
-            <img src={banner} alt="banner" />
-            <h2>Chez vous, partout et ailleurs</h2>
+        <div className={`banner ${isHome ? 'home' : ''} ${isAbout ? 'about' : ''}`} style={{ backgroundImage: `url(${backgroundImage})` }}>
+            <h2>{title}</h2>
         </div>
     );
 };

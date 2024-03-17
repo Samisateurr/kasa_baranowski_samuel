@@ -9,7 +9,7 @@ const Error = () => {
             <img src={error} alt="Logo erreur" className="error-img" />
             <h1>Oups! La page que vous demandez n'existe pas.</h1>
             <nav>
-                <NavLink to="/" activeClassName="active">Retourner sur la page d'acceuil</NavLink>
+                <NavLink to="/" activeClassName="active">Retourner sur la page d'accueil</NavLink>
             </nav>
         </div>
     );

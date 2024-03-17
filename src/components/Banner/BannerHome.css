@@ -1,0 +1,23 @@
+.banner.home::before {
+    filter: brightness(0.4);
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    border-radius: inherit;
+}
+
+.banner h2 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 3rem;
+    z-index: 1;
+}
