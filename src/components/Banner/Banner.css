@@ -17,3 +17,17 @@
     font-size: 3rem;
     z-index: 1;
 }
+
+/* Media query tablettes */
+@media screen and (max-width: 1024px) {
+    .banner h2 {
+        margin: 20px;
+    }
+}
+
+/* Media query pour les mobiles */
+@media screen and (max-width: 480px) {
+    .banner h2 {
+        margin: 10px;
+    }
+}

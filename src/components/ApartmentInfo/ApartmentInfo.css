@@ -98,3 +98,19 @@
 .apartment-collapse {
     width: 50%
 }
+
+/* Media query pour les tablettes */
+@media screen and (max-width: 1024px) {
+    .apartment-tag-stars {
+        flex-direction: column;
+    }
+    .apartment-collapse-container {
+        flex-direction: column;
+    }
+    .apartment-collapse {
+        width: 100%;
+    }
+    .collapsibles {
+        margin: 15px;
+    }
+}

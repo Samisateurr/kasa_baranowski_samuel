@@ -2,3 +2,19 @@
     margin-left: 200px;
     margin-right: 200px;
 }
+
+/* Media query pour les tablettes */
+@media screen and (max-width: 1024px) {
+    .about-contents {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+/* Media query pour les mobiles */
+@media screen and (max-width: 480px) {
+    .about-contents {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

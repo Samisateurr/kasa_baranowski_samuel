@@ -13,7 +13,7 @@
 }
 
 .error-container nav {
-    font-weight: 600; 
+    font-weight: 600;
     margin-bottom: 150px;
 }
 
@@ -32,4 +32,17 @@
 
 .error-img {
     width: 900px;
+}
+
+/* Media query pour les tablettes */
+@media screen and (max-width: 1024px) {
+    .error-img {
+        width: 600px;
+    }
+    .error-container {
+        margin: 150px 0px 0px 0px;
+    }
+    .error-container h1 {
+        text-align: center;
+    }
 }

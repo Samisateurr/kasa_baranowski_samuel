@@ -57,5 +57,10 @@
     border-radius: 20px;
 }
 
-
+/* Media query pour les tablettes */
+@media screen and (max-width: 1024px) {
+    .carousel {
+        height: 475px;
+    }
+}
   
