@@ -26,8 +26,13 @@
 }
 
 /* Media query pour les mobiles */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 740px) {
     .banner h2 {
         margin: 10px;
     }
+    .banner {
+        height: 170px;
+        margin: 30px 20px 0px 20px;
+    }
+
 }

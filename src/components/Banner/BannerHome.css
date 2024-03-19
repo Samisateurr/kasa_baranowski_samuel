@@ -21,3 +21,9 @@
     font-size: 3rem;
     z-index: 1;
 }
+
+@media screen and (max-width: 740px) {
+    .banner h2 {
+      font-size: 1.5rem;
+    }
+  }

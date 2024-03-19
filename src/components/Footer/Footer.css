@@ -17,3 +17,13 @@
 .footer p {
     font-size: x-large;
 }
+
+@media screen and (max-width: 740px) {
+    .footer p {
+        text-align: center;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+}

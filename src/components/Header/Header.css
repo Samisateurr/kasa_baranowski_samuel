@@ -45,3 +45,37 @@
   padding: 7px;
   border-radius: 25px;
 }
+
+@media screen and (max-width: 740px) {
+  .header-logo {
+    width: 170px;
+    margin-left: 10px;
+  }
+
+  .nav-bar {
+    margin: 0px;
+  }
+
+  .nav-bar ul {
+    padding: 5px;
+  }
+
+  .nav-bar ul li {
+    margin-right: 10px;
+  }
+
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .nav-bar {
+    margin-left: 10px;
+  }
+
+  .nav-bar ul li a.active {
+    border: none;
+    background-color: inherit;
+  }
+}
