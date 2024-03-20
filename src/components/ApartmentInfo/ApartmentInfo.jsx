@@ -21,25 +21,30 @@ function ApartmentInfo({ title, location, tags, name, picture, rating, equipment
 
     return (
         <div className="apartment-infos">
+
+           <div className='apartment-infos-owner'>
+            <div>
             <div className="apartment-name-owner">
                 <div>
                     <h2>{title}</h2>
                     <p>{location}</p>
                 </div>
-
-                <div className="apartment-owner">
-                    <img src={picture} alt={name} />
-                    <p>{name}</p>
-                </div>
             </div>
 
-            <div className='apartment-tag-stars'>
                 <div className="apartment-tag">
                     {tags.map((tag, index) => (
                         <p key={index}>{tag}</p>
                     ))}
                 </div>
+            </div>
+
+            <div className='apartment-owner-stars'>
+                <div className="apartment-owner">
+                    <img src={picture} alt={name} />
+                    <p>{name}</p>
+                </div>
                 <div className="stars-container">{renderStars()}</div>
+            </div>
             </div>
 
             <div className="apartment-collapse-container">

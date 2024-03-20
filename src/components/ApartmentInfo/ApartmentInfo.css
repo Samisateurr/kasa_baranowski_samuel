@@ -18,6 +18,12 @@
     justify-content: space-between;
 }
 
+.apartment-infos-owner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .apartment-name-owner {
     display: flex;
     justify-content: space-between;
@@ -69,11 +75,6 @@
     /* Ajoute un espace à gauche de chaque star sauf la première */
 }
 
-.apartment-tag-stars {
-    display: flex;
-    justify-content: space-between;
-}
-
 .collapsibles-container p {
     color: white;
 }
@@ -99,18 +100,94 @@
     width: 50%
 }
 
+.apartment-owner-stars {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
 /* Media query pour les tablettes */
 @media screen and (max-width: 1024px) {
     .apartment-tag-stars {
         flex-direction: column;
     }
+
     .apartment-collapse-container {
         flex-direction: column;
     }
+
     .apartment-collapse {
         width: 100%;
     }
+
     .collapsibles {
         margin: 15px;
+    }
+    .apartment-infos-owner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apartment-owner-stars {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .apartment-infos {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .apartment-infos h2 {
+        font-size: x-large;
+        margin-top: 5px;
+    }
+
+    .apartment-owner p {
+        font-size: medium;
+    }
+
+    .apartment-tag {
+        margin-bottom: 25px;
+    }
+
+    .apartment-infos p {
+        font-size: medium;
+    }
+
+    .stars-container img {
+        width: 21px
+    }
+
+    .apartment-collapse-container {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 15px;
+    }
+
+    .collapsibles_content li {
+        font-size: medium;
+    }
+
+    .collapsibles_content {
+        font-size: medium;
+    }
+
+    .apartment-tag p {
+        padding: 10px 20px;
+    }
+
+    .apartment-owner img {
+        width: 55px;
+    }
+
+    .stars-container img:not(:first-child) {
+        margin-left: 1px;
     }
 }

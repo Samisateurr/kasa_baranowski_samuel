@@ -50,6 +50,13 @@
   z-index: 3;
 }
 
+@media screen and (max-width: 1720px) {
+  .apartment-card {
+    width: 347px;
+    height: 326px;
+  }
+}
+
 /* Media query pour les tablettes */
 @media screen and (max-width: 1024px) {
   .apartment-card {
@@ -59,6 +66,9 @@
 
   .apartments-container {
     padding: 0px;
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
   }
 }
 
@@ -66,6 +76,7 @@
   .apartments-container {
     margin: 30px 20px 0px 20px;
   }
+
   .apartment-card {
     height: 350px;
   }
