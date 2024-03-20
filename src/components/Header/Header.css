@@ -67,6 +67,10 @@
   .banner h2 {
     font-size: 1.5rem;
   }
+
+  .nav-bar a {
+    font-size: medium;
+  }
 }
 
 @media screen and (max-width: 430px) {

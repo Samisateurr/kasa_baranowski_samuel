@@ -37,12 +37,28 @@
 /* Media query pour les tablettes */
 @media screen and (max-width: 1024px) {
     .error-img {
-        width: 600px;
+        width: 500px;
     }
     .error-container {
         margin: 150px 0px 0px 0px;
     }
     .error-container h1 {
         text-align: center;
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .error-img {
+        width: 200px;
+    }
+    .error-container h1 {
+        text-align: center;
+        font-size: medium;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .error-container a {
+        font-size: small;
     }
 }
