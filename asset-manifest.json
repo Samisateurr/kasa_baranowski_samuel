@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/kasa_baranowski_samuel/static/css/main.6ed50eee.css",
+    "main.js": "/kasa_baranowski_samuel/static/js/main.274bd608.js",
+    "static/js/488.f8b7fb13.chunk.js": "/kasa_baranowski_samuel/static/js/488.f8b7fb13.chunk.js",
+    "static/media/banner_about.png": "/kasa_baranowski_samuel/static/media/banner_about.9cb2ea0347a53fb4799f.png",
+    "static/media/picture_banner.png": "/kasa_baranowski_samuel/static/media/picture_banner.4c36aadaecae8cfa7756.png",
+    "static/media/logo_black.png": "/kasa_baranowski_samuel/static/media/logo_black.2a1dc277b37159a34317.png",
+    "index.html": "/kasa_baranowski_samuel/index.html",
+    "main.6ed50eee.css.map": "/kasa_baranowski_samuel/static/css/main.6ed50eee.css.map",
+    "main.274bd608.js.map": "/kasa_baranowski_samuel/static/js/main.274bd608.js.map",
+    "488.f8b7fb13.chunk.js.map": "/kasa_baranowski_samuel/static/js/488.f8b7fb13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ed50eee.css",
+    "static/js/main.274bd608.js"
+  ]
+}
